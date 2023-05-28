@@ -32,6 +32,13 @@ function sidebar() {
       items: [
         { text: 'Guideline', link: '/interview/guideline' }
       ]
+    },
+    {
+      text: 'Concepts',
+      collapsible: true,
+      items: [
+        { text: 'GeoHash', link: '/concepts/geohash' }
+      ]
     }
   ];
 }
